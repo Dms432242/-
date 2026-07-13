@@ -708,6 +708,8 @@
                 </div>
             </div>
 
+            <!-- КНОПКИ -->
+
 
             <!-- НОВЫЙ БЛОК: ПОДТВЕРЖДЕНИЕ И КНОПКА С ФОРМОЙ -->
             <div class="confirm-block">
@@ -872,10 +874,7 @@
             updateTimer();
             setInterval(updateTimer, 1000);
 
-            document.getElementById('rsvpBtn').addEventListener('click', () => alert('Спасибо! Ждём вас! 💍'));
-            document.getElementById('routeBtn').addEventListener('click', () => window.open('https://yandex.ru/maps/?text=Луговая+ул.,+83,+д.+Нерядово', '_blank'));
-            document.getElementById('routeMapLink').addEventListener('click', (e) => { e.preventDefault(); window.open('https://yandex.ru/maps/?text=Луговая+ул.,+83,+д.+Нерядово', '_blank'); });
-
+            
             // МУЗЫКА
             const audio = document.getElementById('bg-music');
             const musicToggle = document.getElementById('musicToggle');
